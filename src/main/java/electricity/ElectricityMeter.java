@@ -10,7 +10,7 @@ package electricity;
 
 import java.util.Calendar;
 
-public class electricityMeter {
+public class ElectricityMeter {
     private float kWh = 0;
     private int centsForKWh=0;
 
@@ -41,6 +41,10 @@ public class electricityMeter {
      */
     int getHowMoreExpensiveNormalIs(){
         return (centsForKWh*100/centsForKWhTariff)-100;
+    }
+
+    public float getkWh() {
+        return kWh;
     }
 
     void setCentsForKWh(int centsForKWh) {
