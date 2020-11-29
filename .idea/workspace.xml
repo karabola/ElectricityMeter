@@ -11,13 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36020666-5796-4fa0-8288-ed3fc5b5bdea" name="Default Changelist" comment="AddKWh added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/electricity/electricityMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/electricity/ElectricityMeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testyMiernikaPrądu/Example.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testyMiernikaPrądu/ExampleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testyMiernikaPrądu/Example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testyMiernikaPrądu/ExampleTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606608566084</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AddKWh added">
+      <created>1606609792944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606609792944</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,10 +204,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606596231362" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1606608839718">
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1606609656807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606608839718" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606609656807" />
     <state x="731" y="123" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606602105649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
