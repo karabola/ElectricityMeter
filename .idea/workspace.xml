@@ -10,8 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36020666-5796-4fa0-8288-ed3fc5b5bdea" name="Default Changelist" comment="AddKWh added">
-      <change beforePath="$PROJECT_DIR$/src/test/java/testyMiernikaPrądu/ExampleTest.java" beforeDir="false" />
+    <list default="true" id="36020666-5796-4fa0-8288-ed3fc5b5bdea" name="Default Changelist" comment="AddKWh added v1">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/electricity/ElectricityMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/electricity/ElectricityMeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/electricity/ElectricityMeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/electricity/ElectricityMeterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Example.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/electricity/ElectricityMeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/electricity/ElectricityMeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/electricity/ElectricityMeterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/electricity/ElectricityMeterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +29,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,7 +64,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -68,8 +77,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="electricity" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElectricityMeterTest.addKWh">
+  <component name="RunManager" selected="JUnit.TariffElecticityMeterTest.GivenOnTariffWhenKwhAdditionThenCounterTariffIsIncreased">
     <configuration name="ElectricityMeterTest.addKWh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kurs Java-testy jednostkowe" />
       <extension name="coverage">
@@ -101,8 +113,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TariffElecticityMeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kurs Java-testy jednostkowe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="electricity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="electricity" />
+      <option name="MAIN_CLASS_NAME" value="electricity.TariffElecticityMeterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TariffElecticityMeterTest.GivenOnTariffWhenKwhAdditionThenCounterTariffIsIncreased" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kurs Java-testy jednostkowe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="electricity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="electricity" />
+      <option name="MAIN_CLASS_NAME" value="electricity.TariffElecticityMeterTest" />
+      <option name="METHOD_NAME" value="GivenOnTariffWhenKwhAdditionThenCounterTariffIsIncreased" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TariffElecticityMeterTest.GivenOnTariffWhenKwhAdditionThenCounterTariffIsIncreased" />
+        <item itemvalue="JUnit.TariffElecticityMeterTest" />
+        <item itemvalue="JUnit.ExampleTest" />
         <item itemvalue="JUnit.ElectricityMeterTest.addKWh" />
         <item itemvalue="JUnit.ExampleTest" />
       </list>
@@ -153,6 +199,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ElectricityMeter class completed." />
@@ -160,14 +207,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="AddKWh added" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="568" y="227" key="#Notifications" timestamp="1606747816258">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="568" y="227" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1606747816258" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1606575363924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1606575363924" />
-    <state x="488" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1606608806868">
+    <state x="894" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1606692346343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606608806868" />
+    <state x="894" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1606692346343" />
     <state x="466" y="229" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606601827406">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -180,38 +231,66 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="47" key="Git.Interactive.Rebase.Dialog/0.0.1366.728@0.0.1366.728" timestamp="1606608631262" />
-    <state width="1323" height="142" key="GridCell.Tab.0.bottom" timestamp="1606608600000">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1606747883787">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606608600000" />
-    <state width="1323" height="142" key="GridCell.Tab.0.center" timestamp="1606608599998">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606747883787" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1606747883787">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606608599998" />
-    <state width="1323" height="142" key="GridCell.Tab.0.left" timestamp="1606608599997">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606747883787" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1606747883786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606608599997" />
-    <state width="1323" height="142" key="GridCell.Tab.0.right" timestamp="1606608599999">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606747883786" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1606747883787">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="142" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606608599999" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1606599404294">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606747883787" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1606747883609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1606599404294" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1606596231362">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606747883609" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1606747883609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606596231362" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1606609656807">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606747883609" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1606747883608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606609656807" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606747883608" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1606747883609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606747883609" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1606691347370">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1606691347370" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1606611225620">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1606611225620" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1606747807778">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606747807778" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1606610547242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606610547242" />
     <state x="731" y="123" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606602105649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="731" y="123" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1606602105649" />
+    <state x="356" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1606611154704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="356" y="77" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1606611154704" />
+    <state x="390" y="152" key="git4idea.merge.GitMergeDialog" timestamp="1606611450187">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="152" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1606611450187" />
     <state x="418" y="225" key="git4idea.rebase.GitRebaseDialog" timestamp="1606608590154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

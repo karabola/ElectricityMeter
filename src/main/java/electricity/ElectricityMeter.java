@@ -11,15 +11,33 @@ package electricity;
 import java.util.Calendar;
 
 public class ElectricityMeter {
+    TariffProvider tp;
+
     private float kWh = 0;
-    private int centsForKWh=0;
+    private int centsForKWh = 0;
 
-    private boolean tariffOn=false;
-    private float kWhTariff=0;
-    private int centsForKWhTariff=0;
+    private boolean tariffOn = false;
+    private float kWhTariff = 0;
+    private int centsForKWhTariff = 0;
 
-    private int electricityTariffStartHour=0;
-    private int electricityTariffEndHour=0;
+    private int electricityTariffStartHour = 0;
+    private int electricityTariffEndHour = 0;
+
+    public ElectricityMeter() {
+        tp = new TariffProvider() {
+            @Override
+            public boolean isTariffNow() {
+                Calendar rightNow = Calendar.getInstance();
+                int hour = rightNow.get(Calendar.HOUR_OF_DAY);
+                return hour > electricityTariffStartHour && hour < electricityTariffEndHour;
+            }
+        };
+    }
+
+
+    public ElectricityMeter(TariffProvider tp) {
+        this.tp = tp;
+    }
 
     public void addKWh (float kWhToAdd){
         if (isTariffNow()){
@@ -29,7 +47,7 @@ public class ElectricityMeter {
         }
     }
 
-    private boolean isTariffNow() {
+    public boolean isTariffNow() {
         Calendar rightNow=Calendar.getInstance();
         int hour=rightNow.get(Calendar.HOUR_OF_DAY);
         return hour>electricityTariffStartHour &&hour<electricityTariffEndHour;
@@ -45,6 +63,10 @@ public class ElectricityMeter {
 
     public float getkWh() {
         return kWh;
+    }
+
+    public float getkWhTariff() {
+        return kWhTariff;
     }
 
     void setCentsForKWh(int centsForKWh) {
